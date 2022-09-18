@@ -17,9 +17,3 @@ provider:
 functions:
   first:
     handler: first.hello
-  second:
-    handler: second.hello
-    events:
-      - httpApi:
-          method: get
-          path: /second
